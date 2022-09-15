@@ -9,10 +9,10 @@
   width: 150px;
 }
 
-div {
-  margin-top: 20px;
+.row {
+  padding-top: 3rem;
 }
 
-.box-home {
+.box-home:hover {
   transform: scale(1.19);
 }/*# sourceMappingURL=style.css.map */

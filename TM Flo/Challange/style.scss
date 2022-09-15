@@ -13,11 +13,13 @@ $gradient: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(89,86,81,1) 100%);
 
   }
 
-div {
-    margin-top: 20px;
+
+.row {
+    padding-top:  3rem;
 }
 
-.box-home {
+
+.box-home:hover {
     transform: scale(1.19); 
 
   }
