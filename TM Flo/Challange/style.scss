@@ -1,16 +1,23 @@
 $gradient: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(89,86,81,1) 100%);
 
-#box-home1, #box-home2, #box-home3, #box-home4, #box-home5, #box-home6 {
+.box-home {
     background: rgb(0, 0, 0);
-    background: $gradient
+    background: $gradient;
     border-radius: 20px;
     color: #fff;
     transition: transform 2s; /* Animation */
     font-size: 14px;
+    height: 150px;
+    width: 150px;
+
+
   }
 
+div {
+    margin-top: 20px;
+}
 
-
-  #box-home1:hover, #box-home2:hover, #box-home3:hover, #box-home4:hover, #box-home5:hover, #box-home6:hover {
+.box-home {
     transform: scale(1.19); 
 
+  }
