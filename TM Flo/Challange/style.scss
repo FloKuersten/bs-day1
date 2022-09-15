@@ -1,15 +1,16 @@
 $gradient: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(89,86,81,1) 100%);
 
-#box-home1, #box-home2, #box-home3, #box-home4, #box-home5 {
+#box-home1, #box-home2, #box-home3, #box-home4, #box-home5, #box-home6 {
     background: rgb(0, 0, 0);
-    background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(89, 86, 81) 100%);
-    height: 250px;
-    width: 250px;
+    background: $gradient
     border-radius: 20px;
     color: #fff;
     transition: transform 2s; /* Animation */
     font-size: 14px;
   }
-  #box-home1:hover, #box-home2:hover, #box-home3:hover, #box-home4:hover, #box-home5:hover {
-    transform: scale(1.19); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  }/*# sourceMappingURL=main-test.css.map */
+
+
+
+  #box-home1:hover, #box-home2:hover, #box-home3:hover, #box-home4:hover, #box-home5:hover, #box-home6:hover {
+    transform: scale(1.19); 
+
